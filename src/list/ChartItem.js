@@ -60,8 +60,8 @@ export default function ChartItem() {
                         <td>{carts.salary}</td>
                         <td>{carts.qty * carts.salary}</td>
                         <td>
-                        <button onClick={()=>Tambah(carts.qty)}>+</button>
-                        <button onClick={()=>Kurang(carts.qty)}>-</button>
+                        <button onClick={()=>Tambah(carts.prodId)}>+</button>
+                        <button onClick={()=>Kurang(carts.prodId)}>-</button>
                         </td>
                     </tr>
                 )
