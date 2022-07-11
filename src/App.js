@@ -8,11 +8,13 @@ import ParentName from './ParentChild/ParentName';
 import ParentComponent from './ParentChild/ParentComponent';
 import EmployeeList from './list/EmployeeList';
 import ChartItem from './list/ChartItem';
+import EmployeeForm from './form/EmployeeForm';
+import ChartList from './form/ChartList';
 
 function App() {
   return (
     <div>
-      <ChartItem/>
+      <ChartList />
     </div>
   );
 }
